@@ -2,8 +2,8 @@
 """
 export data in the JSON format
 """
-import json
 from requests import get
+import json
 
 
 if __name__ == "__main__":
