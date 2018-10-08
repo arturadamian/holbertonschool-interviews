@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-from requests import get
 import json
+from requests import get
+
 
 if __name__ == "__main__":
     users = get('https://jsonplaceholder.typicode.com/users').json()
