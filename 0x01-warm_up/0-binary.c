@@ -4,10 +4,11 @@
 
 
 /**
- * binary_search - find the value in the sorted array
+ * _binary_search - find the value in the sorted array
  * @array: pointed to the first element of the array
- * @size: the size of the  array
- * @value: the value to find
+ * @left: the first element
+ * @right: the last element
+ * @value: the value to search for
  *
  * Return: the node or -1
  **/
@@ -44,15 +45,14 @@ void print_array(int *array, size_t left, size_t right)
 		printf("%d", array[left]);
 		if (left != right)
 			printf(", ");
-		else
-			printf("\n");
 		left++;
 	}
+	printf("\n");
 }
 
 /**
  * binary_search - main function to find a match
- * @array: pointer the array
+ * @array: pointer to the first element of the array
  * @size: size of the array
  * @value: value to search
  *
