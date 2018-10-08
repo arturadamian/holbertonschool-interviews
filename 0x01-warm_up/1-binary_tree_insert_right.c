@@ -1,4 +1,4 @@
-#include "search_algos.h"
+#include "binary_trees.h"
 
 /**
  * binary_tree_insert_right - insert a node as the right child
